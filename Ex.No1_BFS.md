@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 17/02/24                                                                            
+### REGISTER NUMBER : 212221040046
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -17,14 +17,6 @@ To write a python program to implement Breadth first Search.
 graph = {
     '1': ['2', '3'],
     '2': ['4', '5'],
-
-
-
-
-
-
-
-    
     '3': ['6','7'],
     '4': [],
     '5': [],
