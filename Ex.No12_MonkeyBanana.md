@@ -1,5 +1,5 @@
 # Ex.No: 12  Planning –  Monkey Banana Problem
-### DATE: 30.03.24                                                                     
+### DATE:                                                                      
 ### REGISTER NUMBER : 212221040046
 ### AIM: 
 To find the sequence of plan for Monkey Banana problem using PDDL Editor.
@@ -12,7 +12,7 @@ Step 5:   Define a problem for Monkey Banana problem.<br>
 Step 6:  Obtain the plan for given problem.<br> 
 Step 7: Stop the program.<br> 
 ### Program:
-
+```
 (define (domain monkey)         
 (:requirements :strips) 
 (:constants monkey box knife bananas glass waterfountain) 
@@ -61,9 +61,9 @@ Step 7: Stop the program.<br>
 (at monkey ?y) 
 (onbox ?y)) 
 :effect (haswater)))
-
+```
 ### Input 
-
+```
 (define (problem pb1) 
 (:domain monkey) 
 (:objects p1 p2 p3 p4 bananas monkey box knife) 
@@ -79,7 +79,7 @@ Step 7: Stop the program.<br>
 ) 
 (:goal (and (hasbananas))) 
 )
-
+```
 ### Output/Plan:
 <img width="445" alt="Screenshot 2023-11-07 221539" src="https://github.com/21005291/AI_Lab_2023-24/assets/112933167/16773d97-dd69-49d9-8c78-e150a9257d8c">
 
